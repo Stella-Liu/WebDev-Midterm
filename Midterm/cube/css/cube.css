@@ -1,0 +1,46 @@
+.face{
+	position: absolute;
+	height: 360px;
+	width: 360px;
+	padding: 20px;
+}
+
+#cube{
+	position: relative;
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: rotateX(0deg) rotateY(20deg);
+	-webkit-animation:anim2 ease-in-out 20s infinite alternate;
+}
+
+@-webkit-keyframes anim2{
+	from{-webkit-transform: rotateY(0deg)}
+	50% {-webkit-transform: rotateY(360deg)}
+	to  {-webkit-transform: rotateY(0deg)}
+}
+
+#F1{
+	-webkit-transform: rotateX(90deg) translateZ(200px);
+}
+
+#F2{
+	-webkit-transform: translateZ(200px);
+}
+
+#F3{
+	-webkit-transform: rotateY(90deg) translateZ(200px);
+}
+
+#F4{
+	-webkit-transform: rotateY(180deg) translateZ(200px);
+}
+
+#F5{
+	-webkit-transform: rotateY(-90deg) transformZ(200px);
+}
+
+#F6{
+	-webkit-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
+}

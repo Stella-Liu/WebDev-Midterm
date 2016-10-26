@@ -1,0 +1,52 @@
+*{
+	/*get rid of all the web browser spacing*/
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+html{
+	background:url(../../img/congruent_pentagon.png) repeat center center fixed;
+	font-family: 'Raleway', sans-serif;
+}
+
+a img{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+div{
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width:80%;
+}
+
+div img{
+	margin-right: 15px;
+	float:left;
+}
+
+div div{
+	width: 630px;
+	height: 420px;
+	float: left;
+}
+
+div div h2{
+	font-size: 50px;
+}
+
+div div p{
+	font-size: 30px;
+}
+
+#firstText{
+	float: left;
+	width: 630px;
+	height: 639px;
+}

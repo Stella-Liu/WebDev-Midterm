@@ -1,0 +1,96 @@
+*{
+	/*get rid of all the web browser spacing*/
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background:url(img/congruent_pentagon.png) repeat center center fixed;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+h2{
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+p{
+	margin-bottom: 10px;
+	font-size: 23px;
+}
+
+div{
+	margin:auto;
+	width:80%;
+}
+
+iframe{
+	width:100%;
+}
+
+#header{
+	width:100%;
+	margin: none;
+	padding: none;
+}
+
+img{
+	width:100%;
+}
+
+li{
+	font-size: 21px;
+	list-style-position: inside;
+}
+
+nav{
+	margin: 0px auto 30px auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar{
+	margin: auto;
+	list-style: none;
+	border: 1px solid #000;
+	border-radius: 2px;
+	background-color: #00CC99;
+}
+	
+
+nav ul li{
+	display: inline;
+	font-size: 18px;
+	padding: 3px 28px 3px 28px;
+	overflow: hidden;
+}
+
+nav ul li a{
+	padding-left: 4%;
+	padding-right: 4%;
+	width:20%;
+	margin: auto;
+	text-align: center;
+    color: #000;
+    text-decoration: none; 
+}
+
+nav ul li ul{
+	display: none;
+}
+
+nav ul li:hover ul{
+	margin-left: 35%;
+	position: absolute;
+	display: block;
+	background-color: #00CC99;
+}
+
+nav ul li ul li{
+	width: 170px;
+	display: block;
+	border: 1px solid #000;
+	text-align: left;
+}
